@@ -1,4 +1,4 @@
-# BoroBazar Documentation
+# Seçgi Documentation
 
 ## Introduction
 

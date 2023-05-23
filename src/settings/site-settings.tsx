@@ -1,13 +1,9 @@
-// import { ILFlag } from '@components/icons/language/ILFlag';
-// import { SAFlag } from '@components/icons/language/SAFlag';
-// import { CNFlag } from '@components/icons/language/CNFlag';
 import { USFlag } from '@components/icons/language/USFlag';
-// import { DEFlag } from '@components/icons/language/DEFlag';
-// import { ESFlag } from '@components/icons/language/ESFlag';
 import siteLogo from 'public/assets/images/logo.svg';
+import { TMFlag } from '@components/icons/language/TMFlag';
 
 export const siteSettings = {
-  name: 'BoroBazar',
+  name: 'Seçgi',
   description:
     'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
   author: {
@@ -17,7 +13,7 @@ export const siteSettings = {
   },
   logo: {
     url: siteLogo,
-    alt: 'BoroBazar',
+    alt: 'Seçgi',
     href: '/',
     width: 128,
     height: 30,
@@ -218,42 +214,18 @@ export const siteSettings = {
       },
     ],
     languageMenu: [
-      // {
-      //   id: 'ar',
-      //   name: 'عربى - AR',
-      //   value: 'ar',
-      //   icon: <SAFlag />,
-      // },
-      // {
-      //   id: 'zh',
-      //   name: '中国人 - ZH',
-      //   value: 'zh',
-      //   icon: <CNFlag />,
-      // },
       {
         id: 'en',
         name: 'English - EN',
         value: 'en',
         icon: <USFlag />,
       },
-      // {
-      //   id: 'de',
-      //   name: 'Deutsch - DE',
-      //   value: 'de',
-      //   icon: <DEFlag />,
-      // },
-      // {
-      //   id: 'he',
-      //   name: 'rעברית - HE',
-      //   value: 'he',
-      //   icon: <ILFlag />,
-      // },
-      // {
-      //   id: 'es',
-      //   name: 'Español - ES',
-      //   value: 'es',
-      //   icon: <ESFlag />,
-      // },
+      {
+        id: 'tm',
+        name: 'Turkmen - TM',
+        value: 'tm',
+        icon: <TMFlag />,
+      },
     ],
     pagesMenu: [
       {
