@@ -1,4 +1,6 @@
 {
+  "menu-customer-support": "Hyzmatlarymyz",
+  "menu-home": "Baş Sahypa",
   "menu-demos": "Demos",
   "menu-modern": "Modern",
   "menu-standard": "Standard",
@@ -33,7 +35,7 @@
   "menu-about-us": "Biz barada",
   "menu-privacy-policy": "Gizlinlik syýasaty",
   "menu-terms-condition": "Şertler",
-  "menu-contact-us": "Biz bilen habarlaşyň",
+  "menu-contact-us": "Habarlaşmak üçin",
   "menu-checkout": "Çykyş",
   "menu-404": "404"
 }
