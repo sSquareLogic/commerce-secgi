@@ -46,7 +46,7 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {isMounted && <ClientRenderedHighLightedBar />}
+      {/* {isMounted && <ClientRenderedHighLightedBar />} */}
       {/* End of highlighted bar  */}
 
       <Header />
