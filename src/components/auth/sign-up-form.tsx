@@ -54,7 +54,13 @@ export default function SignUpForm({
       {isPopup === true && <CloseButton onClick={closeModal} />}
       <div className="flex w-full mx-auto overflow-hidden rounded-lg bg-brand-light">
         <div className="md:w-1/2 lg:w-[55%] xl:w-[60%] registration hidden md:block relative">
-          <Image src="/assets/images/registration.png" alt="sign up" priority />
+          <Image
+            src="/assets/images/registration.png"
+            alt="sign up"
+            priority
+            width={100}
+            height={100}
+          />
         </div>
         <div className="w-full md:w-1/2 lg:w-[45%] xl:w-[40%] py-6 sm:py-10 px-4 sm:px-8 md:px-6 lg:px-8 xl:px-12 rounded-md shadow-dropDown flex flex-col justify-center">
           <div className="text-center mb-6 pt-2.5">
